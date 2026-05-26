@@ -1,0 +1,82 @@
+<svg class="card-label card-label-tolean" width="486" height="66" viewBox="0 0 486 66"
+        xmlns="http://www.w3.org/2000/svg">
+        <!-- T -->
+        <rect class="tolean" opacity="0" x="0"  y="0"  width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="14" y="0"  width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="28" y="0"  width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="42" y="0"  width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="56" y="0"  width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="28" y="14" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="28" y="28" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="28" y="42" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="28" y="56" width="10" height="10" fill="#fff" />
+        <!-- O -->
+        <rect class="tolean" opacity="0" x="98"  y="0"  width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="112" y="0"  width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="126" y="0"  width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="84"  y="14" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="140" y="14" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="84"  y="28" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="140" y="28" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="84"  y="42" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="140" y="42" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="98"  y="56" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="112" y="56" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="126" y="56" width="10" height="10" fill="#fff" />
+        <!-- L -->
+        <rect class="tolean" opacity="0" x="168" y="0"  width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="168" y="14" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="168" y="28" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="168" y="42" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="168" y="56" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="182" y="56" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="196" y="56" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="210" y="56" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="224" y="56" width="10" height="10" fill="#fff" />
+        <!-- E -->
+        <rect class="tolean" opacity="0" x="252" y="0"  width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="266" y="0"  width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="280" y="0"  width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="294" y="0"  width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="308" y="0"  width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="252" y="14" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="252" y="28" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="266" y="28" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="280" y="28" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="294" y="28" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="252" y="42" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="252" y="56" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="266" y="56" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="280" y="56" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="294" y="56" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="308" y="56" width="10" height="10" fill="#fff" />
+        <!-- A -->
+        <rect class="tolean" opacity="0" x="350" y="0"  width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="364" y="0"  width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="378" y="0"  width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="336" y="14" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="392" y="14" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="336" y="28" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="350" y="28" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="364" y="28" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="378" y="28" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="392" y="28" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="336" y="42" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="392" y="42" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="336" y="56" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="392" y="56" width="10" height="10" fill="#fff" />
+        <!-- N -->
+        <rect class="tolean" opacity="0" x="420" y="0"  width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="476" y="0"  width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="420" y="14" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="434" y="14" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="476" y="14" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="420" y="28" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="448" y="28" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="476" y="28" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="420" y="42" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="462" y="42" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="476" y="42" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="420" y="56" width="10" height="10" fill="#fff" />
+        <rect class="tolean" opacity="0" x="476" y="56" width="10" height="10" fill="#fff" />
+      </svg>

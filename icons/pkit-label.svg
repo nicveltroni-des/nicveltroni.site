@@ -1,0 +1,44 @@
+<svg class="card-label card-label-pkit" width="362" height="66" viewBox="0 0 362 66"
+        xmlns="http://www.w3.org/2000/svg">
+        <rect class="pkit" opacity="0" x="0" y="0" width="10" height="10" fill="#fff" />
+        <rect class="pkit" opacity="0" x="14" y="0" width="10" height="10" fill="#fff" />
+        <rect class="pkit" opacity="0" x="28" y="0" width="10" height="10" fill="#fff" />
+        <rect class="pkit" opacity="0" x="42" y="0" width="10" height="10" fill="#fff" />
+        <rect class="pkit" opacity="0" x="0" y="14" width="10" height="10" fill="#fff" />
+        <rect class="pkit" opacity="0" x="56" y="14" width="10" height="10" fill="#fff" />
+        <rect class="pkit" opacity="0" x="0" y="28" width="10" height="10" fill="#fff" />
+        <rect class="pkit" opacity="0" x="14" y="28" width="10" height="10" fill="#fff" />
+        <rect class="pkit" opacity="0" x="28" y="28" width="10" height="10" fill="#fff" />
+        <rect class="pkit" opacity="0" x="42" y="28" width="10" height="10" fill="#fff" />
+        <rect class="pkit" opacity="0" x="0" y="42" width="10" height="10" fill="#fff" />
+        <rect class="pkit" opacity="0" x="0" y="56" width="10" height="10" fill="#fff" />
+        <rect class="pkit" opacity="0" x="102" y="56" width="10" height="10" fill="#f00" />
+        <rect class="pkit" opacity="0" x="148" y="0" width="10" height="10" fill="#fff" />
+        <rect class="pkit" opacity="0" x="190" y="0" width="10" height="10" fill="#fff" />
+        <rect class="pkit" opacity="0" x="148" y="14" width="10" height="10" fill="#fff" />
+        <rect class="pkit" opacity="0" x="176" y="14" width="10" height="10" fill="#fff" />
+        <rect class="pkit" opacity="0" x="148" y="28" width="10" height="10" fill="#fff" />
+        <rect class="pkit" opacity="0" x="162" y="28" width="10" height="10" fill="#fff" />
+        <rect class="pkit" opacity="0" x="148" y="42" width="10" height="10" fill="#fff" />
+        <rect class="pkit" opacity="0" x="176" y="42" width="10" height="10" fill="#fff" />
+        <rect class="pkit" opacity="0" x="148" y="56" width="10" height="10" fill="#fff" />
+        <rect class="pkit" opacity="0" x="190" y="56" width="10" height="10" fill="#fff" />
+        <rect class="pkit" opacity="0" x="236" y="0" width="10" height="10" fill="#fff" />
+        <rect class="pkit" opacity="0" x="250" y="0" width="10" height="10" fill="#fff" />
+        <rect class="pkit" opacity="0" x="264" y="0" width="10" height="10" fill="#fff" />
+        <rect class="pkit" opacity="0" x="250" y="14" width="10" height="10" fill="#fff" />
+        <rect class="pkit" opacity="0" x="250" y="28" width="10" height="10" fill="#fff" />
+        <rect class="pkit" opacity="0" x="250" y="42" width="10" height="10" fill="#fff" />
+        <rect class="pkit" opacity="0" x="236" y="56" width="10" height="10" fill="#fff" />
+        <rect class="pkit" opacity="0" x="250" y="56" width="10" height="10" fill="#fff" />
+        <rect class="pkit" opacity="0" x="264" y="56" width="10" height="10" fill="#fff" />
+        <rect class="pkit" opacity="0" x="296" y="0" width="10" height="10" fill="#fff" />
+        <rect class="pkit" opacity="0" x="310" y="0" width="10" height="10" fill="#fff" />
+        <rect class="pkit" opacity="0" x="324" y="0" width="10" height="10" fill="#fff" />
+        <rect class="pkit" opacity="0" x="338" y="0" width="10" height="10" fill="#fff" />
+        <rect class="pkit" opacity="0" x="352" y="0" width="10" height="10" fill="#fff" />
+        <rect class="pkit" opacity="0" x="324" y="14" width="10" height="10" fill="#fff" />
+        <rect class="pkit" opacity="0" x="324" y="28" width="10" height="10" fill="#fff" />
+        <rect class="pkit" opacity="0" x="324" y="42" width="10" height="10" fill="#fff" />
+        <rect class="pkit" opacity="0" x="324" y="56" width="10" height="10" fill="#fff" />
+      </svg>
