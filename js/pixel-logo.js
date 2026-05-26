@@ -298,19 +298,9 @@
     var aboutPxs = Array.from(aboutPixelEl.querySelectorAll('.px'));
     hideAll(aboutPxs);
 
-    var aboutFlickerState = null;
     window._aboutPixelReveal = function () {
       hideAll(aboutPxs);
       shuffledReveal(aboutPxs, 8);
-      // Avvia il flicker rosso dopo che il reveal è completato
-      if (!aboutFlickerState) {
-        setTimeout(function () {
-          aboutFlickerState = startFlicker(aboutPxs, {
-            count: [2, 4], on: [200, 400], gap: [300, 600],
-            idle: [400, 600], keepOpacity: true, color: '#FF2200'
-          });
-        }, 1100);
-      }
     };
     window._aboutPixelHide = function () {
       hideAll(aboutPxs);
