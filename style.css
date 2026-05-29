@@ -3484,6 +3484,20 @@ body.iact-open.screen-white nav a:hover { color: #FF2200; }
   margin: 0 0 2px 0;
 }
 
+.about-exp-meta-inline {
+  font-size: 11px;
+  font-weight: 300;
+  color: rgba(255,255,255,.45);
+  margin-left: 6px;
+}
+
+.about-exp-desc {
+  font-size: 11px;
+  font-weight: 300;
+  color: rgba(255,255,255,.6);
+  margin: 0 0 2px 0;
+}
+
 .about-exp-meta {
   font-size: 11px;
   font-weight: 300;
