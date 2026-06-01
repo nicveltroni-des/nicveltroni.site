@@ -343,24 +343,23 @@ body.iact-open.screen-white nav a:hover { color: #FF2200; }
 
 /* ── Projects Grid ── */
 #carousel-section {
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 52px 60px 60px;
+  padding: 80px 60px;
   box-sizing: border-box;
 }
 .projects-grid {
-  display: flex;
-  flex-direction: row;
-  gap: 28px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
   width: 100%;
-  max-width: 1400px;
-  justify-content: center;
+  max-width: 900px;
 }
 .proj-card {
-  flex: 1;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -3274,29 +3273,50 @@ body.iact-open.screen-white nav a:hover { color: #FF2200; }
   opacity: 0;
   transition: opacity 0.4s ease;
   margin-top: 4px;
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  background: #000;
+  padding: 120px 64px 48px;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
-.about-s2-grid {
+#about-s2-particles-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.about-s2-3col {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1fr 1.4fr 1fr;
+  gap: 0 48px;
+  height: 100%;
+  align-content: start;
+}
+
+.about-s2-skills-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.about-exp-stack {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.about-s2-skills {
+.about-s2-col-right {
   display: flex;
-  flex-direction: row;
-  gap: 24px;
-}
-
-.about-s2-skills > div {
-  flex: 1;
-  min-width: 0;
-}
-
-.about-s2-bottom {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 0 32px;
+  flex-direction: column;
+  gap: 28px;
 }
 
 #about-photo-col {
@@ -3469,6 +3489,7 @@ body.iact-open.screen-white nav a:hover { color: #FF2200; }
 }
 
 /* Experience */
+
 .about-exp-list {
   margin-top: 4px;
 }
@@ -3478,21 +3499,21 @@ body.iact-open.screen-white nav a:hover { color: #FF2200; }
 }
 
 .about-exp-title {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 300;
   color: #fff;
   margin: 0 0 2px 0;
 }
 
 .about-exp-meta-inline {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 300;
   color: rgba(255,255,255,.45);
-  margin-left: 6px;
+  margin-left: 0;
 }
 
 .about-exp-desc {
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 300;
   color: rgba(255,255,255,.6);
   margin: 0 0 2px 0;
