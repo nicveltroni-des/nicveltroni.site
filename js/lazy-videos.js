@@ -1,7 +1,9 @@
 // ── Lazy-load project-panel videos ──
-// Panels are display:none on load. Their <video src> would still download
-// (autoplay forces it). We strip src→data-src on load and restore only when
-// the panel becomes visible, then pause/release when it closes.
+// Panels are display:none on load, so their <video src> would still download
+// (autoplay forces it) and slow the home page. We strip src→data-src up-front
+// and restore it only when the panel opens. We KEEP the native `autoplay`
+// attribute: Chrome plays muted autoplay clips only while they're on screen and
+// pauses the rest, so the marquee never decodes dozens of videos at once.
 (function () {
   'use strict';
 
@@ -12,44 +14,34 @@
       video.setAttribute('data-src', video.getAttribute('src'));
       video.removeAttribute('src');
     }
-    if (video.hasAttribute('autoplay')) {
-      video.setAttribute('data-autoplay', '');
-      video.removeAttribute('autoplay');
-    }
     video.preload = 'none';
   }
 
-  function load(video) {
+  function restore(video) {
     if (!video.getAttribute('src') && video.getAttribute('data-src')) {
       video.setAttribute('src', video.getAttribute('data-src'));
-      video.load();
+      video.load(); // native autoplay (if present) plays it once visible
     }
-    // All these are muted background/loop clips — safe to attempt playback.
-    var p = video.play();
-    if (p && p.catch) p.catch(function () {});
-  }
-
-  function unload(video) {
-    try { video.pause(); } catch (e) {}
   }
 
   function isVisible(panel) {
-    var s = panel.style;
-    return s.display !== 'none' && getComputedStyle(panel).display !== 'none';
+    return panel.style.display !== 'none' &&
+           getComputedStyle(panel).display !== 'none';
   }
 
   PANEL_IDS.forEach(function (id) {
     var panel = document.getElementById(id);
     if (!panel) return;
 
-    var videos = Array.prototype.slice.call(panel.querySelectorAll('video[src], video[data-src]'));
+    var videos = Array.prototype.slice.call(
+      panel.querySelectorAll('video[src], video[data-src]'));
     videos.forEach(strip);
 
     var observer = new MutationObserver(function () {
       if (isVisible(panel)) {
-        videos.forEach(load);
+        videos.forEach(restore);
       } else {
-        videos.forEach(unload);
+        videos.forEach(function (v) { try { v.pause(); } catch (e) {} });
       }
     });
     observer.observe(panel, { attributes: true, attributeFilter: ['style'] });
