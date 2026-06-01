@@ -430,6 +430,13 @@
     });
   }
 
+  // Resolve a media element's source, accounting for lazy-loaded data-src.
+  function resolveSrc(el) {
+    if (el.getAttribute('src')) return el.src;
+    var d = el.getAttribute('data-src');
+    return d ? new URL(d, location.href).href : el.src;
+  }
+
   // ══════════════════════════════════════════════
   //  Lightbox factory (shared by PNR, PKIT, Tolean, Interact)
   // ══════════════════════════════════════════════
@@ -473,7 +480,7 @@
     }
 
     function openBox(el) {
-      var src = el.src;
+      var src = resolveSrc(el);
       var type = el.tagName === 'VIDEO' ? 'video' : 'img';
       var idx = items.findIndex(function (i) { return i.src === src && i.type === type; });
       index = idx >= 0 ? idx : 0;
@@ -521,7 +528,7 @@
       var els = Array.from(track.children);
       return els.slice(0, Math.floor(els.length / 2)).map(function (el) {
         var media = el.querySelector('img, video') || el;
-        return { type: media.tagName === 'VIDEO' ? 'video' : 'img', src: media.src };
+        return { type: media.tagName === 'VIDEO' ? 'video' : 'img', src: resolveSrc(media) };
       });
     }
   });
@@ -672,7 +679,7 @@
     buildItems: function (track) {
       var els = Array.from(track.children);
       return els.slice(0, Math.floor(els.length / 2)).map(function (el) {
-        return { type: el.tagName === 'VIDEO' ? 'video' : 'img', src: el.src };
+        return { type: el.tagName === 'VIDEO' ? 'video' : 'img', src: resolveSrc(el) };
       });
     },
     onOpen: function (track) {
