@@ -24,8 +24,12 @@
   function load(video) {
     if (!video.getAttribute('src') && video.getAttribute('data-src')) {
       video.setAttribute('src', video.getAttribute('data-src'));
-      video.load(); // native autoplay (if present) starts it once it has data
+      video.load();
     }
+    // Play once visible. Works whether or not the markup has `autoplay`; the IO
+    // guarantees only the 1–2 on-screen clips ever play, so no mass-decode freeze.
+    var p = video.play();
+    if (p && p.catch) p.catch(function () {});
   }
 
   function unload(video) {
